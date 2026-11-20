@@ -6,7 +6,7 @@
 
 本版直接使用 `org.luckypray:dexkit:2.0.6`。对应源码和原始 AAR 的来源在第三方资料包中；源代码适用 LGPL-3.0。小灵没有修改 DexKit 上游源码。
 
-1844 的 R8 配置包含：
+1844 与本次 `0.4.0-r18-261120-1044-protected` 的 R8 配置均包含：
 
 ```proguard
 -keep class org.luckypray.dexkit.** { *; }
